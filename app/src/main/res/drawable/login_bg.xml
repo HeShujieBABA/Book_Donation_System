@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    <gradient
+        android:angle="45"
+        android:endColor="#fff"
+        android:startColor="#FFACDAE5"/>       <!-- gradient为设置渐变色的标签，angle为渐变角度，endcolor和startcolor分别对应渐变的重点色和起始色 -->
+</shape>

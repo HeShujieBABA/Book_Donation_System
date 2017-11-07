@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/logintop_bg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/activity_horizontal_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="10dp"
+    tools:context=".MoreActivity"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:focusableInTouchMode="true"
+            android:focusable="true"
+            android:hint="请输入您宝贵的反馈意见~"
+            android:gravity="start"
+            android:id="@+id/etREName"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@android:drawable/edit_text">
+            <requestFocus />
+        </EditText>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+            <Button
+                android:id="@+id/btFBfeedback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="反馈"
+                android:layout_weight="1"
+                android:background="@drawable/btchange_bg"
+                ></Button>
+
+            <Button
+                android:id="@+id/btFBcancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btchange_bg"
+                android:text="取消"
+                android:layout_marginLeft="5dp"></Button>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
+
+

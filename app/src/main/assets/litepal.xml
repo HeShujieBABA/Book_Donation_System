@@ -1,0 +1,8 @@
+<litepal>
+    <dbname value = "BookStore"></dbname>
+    <version value = "1"></version>
+    <list>
+        <mapping class="com.example.book_donation_system.db.Book"></mapping>
+        <mapping class="com.example.book_donation_system.db.User"></mapping>
+    </list>
+</litepal>

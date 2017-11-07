@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="#55FFFFFF"/>  <!-- 后边六个字母代表颜色，前边两位数字代表透明度 -->
+    <corners android:radius="10dp"/>
+</shape>

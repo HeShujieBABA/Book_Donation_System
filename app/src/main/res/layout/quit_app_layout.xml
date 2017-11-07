@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/logintop_bg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".LoginActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+       <TextView
+           android:background="#008B8B"
+           android:textSize="20sp"
+           android:textColor="#FFF"
+           android:gravity="center"
+           android:text="温馨提示"
+           android:layout_width="match_parent"
+           android:layout_height="50dp" />
+        <TextView
+         android:textSize="16sp"
+           android:gravity="center"
+            android:text="亲，真的要残忍退出吗？"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp">
+            <Button
+                android:textColor="#FFF"
+                android:id="@+id/btQuit"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="残忍退出"
+                android:layout_weight="1"
+                android:background="#008B8B"
+                ></Button>
+
+            <Button
+                android:textColor="#FFF"
+                android:id="@+id/btnCancel"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="#008B8B"
+                android:text="继续留下"
+                android:layout_marginLeft="5dp"></Button>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
+

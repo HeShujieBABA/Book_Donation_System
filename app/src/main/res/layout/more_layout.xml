@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/more_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.book_donation_system.MoreActivity">
+
+    <LinearLayout
+        android:id="@+id/settingLayout"
+        android:background="#FFF"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:padding="4dp"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/setting"/>
+        <TextView
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设置" />
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/helpLayout"
+        android:background="#FFF"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:padding="4dp"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/help"/>
+        <TextView
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="帮助" />
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/giftLayout"
+        android:background="#FFF"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:padding="4dp"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gift"/>
+        <TextView
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="福利 " />
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/feedbackLayout"
+        android:background="#FFF"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:padding="4dp"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/feedback"/>
+        <TextView
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="反馈 " />
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/telephoneLayout"
+        android:background="#FFF"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:padding="4dp"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/telephone"/>
+        <TextView
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="联系我们" />
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_margin="40dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18dp"
+        android:textColor="#1E90FF"
+        android:text="常见问题"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
